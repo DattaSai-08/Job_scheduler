@@ -2,7 +2,7 @@ import threading
 import time
 from datetime import datetime
 from database import SessionLocal
-from models import Job
+from model import Job
 import subprocess
 
 def run_job(job):
